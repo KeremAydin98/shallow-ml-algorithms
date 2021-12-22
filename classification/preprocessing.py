@@ -38,7 +38,6 @@ class preprocess():
             train_df = train_df.drop(drop, axis=1)
             test_df = test_df.drop(drop, axis=1)
 
-
         train_features = train_df.drop("median_high", axis=1)
         train_labels = train_df["median_high"]
 
