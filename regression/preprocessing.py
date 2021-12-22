@@ -46,5 +46,3 @@ class preprocess():
         data_norm = (data - data.mean()) / data.std()
 
         return data_norm
-
-        return data_norm
