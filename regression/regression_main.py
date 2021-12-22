@@ -27,7 +27,6 @@ def train_and_evaluate_model(model):
   print(model)
   print(mse)
 
-
 reg = LinearRegression()
 dct = DecisionTreeRegressor()
 svr = SVR()
