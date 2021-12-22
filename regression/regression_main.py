@@ -8,7 +8,9 @@ import numpy as np
 
 pro = preprocess()
 
-train_features,train_labels,test_features,test_labels = pro.importing_data()
+train_df,test_df = pro.importing_data()
+
+train_features,train_labels,test_features,test_labels = pro.remove_uncorrelated(train_df,test_df)
 
 train_features_norm = pro.normalization(train_features)
 train_labels_norm = pro.normalization(train_labels)
