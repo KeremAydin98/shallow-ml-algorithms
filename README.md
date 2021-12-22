@@ -27,3 +27,5 @@ F1 score for different classifiers:
 
 * Ensemble Classifier:
 0.7658032478861898
+
+I have used the California housing dataset.
